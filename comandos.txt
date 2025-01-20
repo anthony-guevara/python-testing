@@ -1,0 +1,15 @@
+venv/Scripts/Activate
+
+python -m unittest discover -v -s tests 
+
+cmd /c "set PYTHONPATH=. && python tests/test_suites.py"
+
+'United States of America'
+
+ python -m unittest tests.test_api_client
+
+ pip freeze | grep Faker 
+
+  coverage run --source src -m unittest discover tests
+  coverage report
+  coverage html
