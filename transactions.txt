@@ -1,0 +1,6 @@
+Cuenta creada
+Deposito de 100. New Balance: 1100
+Cuenta creada
+Deposito de 3000. New Balance: 4000
+Cuenta creada
+Deposito de 4500. New Balance: 5500
