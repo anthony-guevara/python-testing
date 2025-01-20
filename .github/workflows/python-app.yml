@@ -28,6 +28,6 @@ jobs:
       env:
         TZ: 'America/Tegucigalpa'
       run: |
-        cd testing-python
+        cd python-testing
         export PYTHONPATH="${PYTHONPATH}:${PWD}"
         python -m unittest discover -s test -v
