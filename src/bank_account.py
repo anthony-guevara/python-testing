@@ -21,6 +21,8 @@ class BankAccount:
 
     def withdraw(self, amount):
         now = datetime.datetime.now()
+        if amount<0:
+            raise ValueError("No puedes retirar una cantidad negativa")
         if now.hour < 8 or now.hour > 17:
             raise WithdrawalTimeRestrictionError("No puedes retirar en este horario")
         if amount > self.balance:

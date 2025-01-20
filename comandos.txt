@@ -13,3 +13,5 @@ cmd /c "set PYTHONPATH=. && python tests/test_suites.py"
   coverage run --source src -m unittest discover tests
   coverage report
   coverage html
+
+  pytest tests/test_pytest.py -v
